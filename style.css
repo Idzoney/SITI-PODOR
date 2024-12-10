@@ -1,0 +1,130 @@
+/* Variables globales */
+:root {
+    --primary-color: #008000; /* Vert */
+    --secondary-color: #FFD700; /* Jaune */
+    --background-color: #f4f4f4; /* Gris clair */
+    --text-color: #333;
+    --white-color: #fff;
+}
+
+/* Styles de base */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 2rem;
+}
+header .logo img {
+    max-height: 300px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+.header-buttons button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-buttons button:hover {
+    background-color: #0056b3;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 10px 0;
+}
+
+nav a {
+    color: var(--primary-color);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Arrière-plan pour le site entier */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('baobab.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+.header-buttons button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-buttons button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Styles des modules */
+.module {
+    background: var(--white-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.module:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}

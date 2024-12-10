@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITI - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Ajout des boutons Connexion et Login dans l'en-tête -->
+        <div class="header-buttons">
+            <button onclick="window.location.href='login.html';">Connexion</button>
+            <button onclick="window.location.href='login.html';">Login</button>
+        </div>
+        <main class="login-container">
+        <form action="process_signup.php" method="POST">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 SITI Podor - Tous droits réservés.
+    </footer>
+</body>
+</html>          
+        <h1>Système d'Information Territorial pour l'Investissement</h1>
+        <p>(SITI - Département de Podor)</p>
+    </header>
+
+    <nav>
+        <a href="#cartographie">Cartographie</a>
+        <a href="#projets">Projets d'investissement</a>
+        <a href="#acteurs">Acteurs</a>
+        <a href="#analyses">Analyses</a>
+        <a href="#communication">Communication</a>
+    </nav>
+
+    <main class="container">
+        <!-- Section Cartographie -->
+        <a href="cartographie.html" class="module">
+            <h2>Cartographie Interactive</h2>
+            <p>Explorez les ressources naturelles et les infrastructures.</p>
+        </a>
+
+        <!-- Section Projets d'investissement -->
+        <a href="projets.html" class="module">
+            <h2>Projets d'Investissement</h2>
+            <p>Consultez les projets et suivez leur avancement.</p>
+        </a>
+
+        <!-- Section Acteurs -->
+        <a href="acteurs.html" class="module">
+            <h2>Gestion des Acteurs</h2>
+            <p>Créez des profils et connectez-vous avec les partenaires locaux.</p>
+        </a>
+
+        <!-- Section Analyses -->
+        <a href="analyses.html" class="module">
+            <h2>Analyse et Simulation</h2>
+            <p>Utilisez des outils d'analyse pour évaluer les scénarios.</p>
+        </a>
+
+        <!-- Section Communication -->
+        <a href="communication.html" class="module">
+            <h2>Communication</h2>
+            <p>Recevez des newsletters et participez aux événements en ligne.</p>
+        </a>
+    </main>
+
+    <footer>
+        &copy; 2024 SITI Podor - Tous droits réservés.
+    </footer>
+</body>
+</html>
